@@ -1,0 +1,1 @@
+{"version":3,"file":"historySchema.js","sourceRoot":"","sources":["../../../adv1/server/schemas/historySchema.ts"],"names":[],"mappings":"AAAA,IAAO,QAAQ,WAAW,UAAU,CAAC,CAAA;AAE1B,qBAAa,GACxB,IAAI,QAAQ,CAAC,MAAM,CAAE;IACT,WAAW,EAAC,MAAM;IAClB,gBAAgB,EAAC,IAAI;IACrB,UAAU,EAAG;QACT,IAAI,EAAC,MAAM;QACX,KAAK,EAAC,MAAM,EAAE,EAAC,EACnB,EAAE,GAAG,EAAG,KAAK,EAAE,CAAC,CAAA"}
