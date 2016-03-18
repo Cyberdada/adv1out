@@ -93,7 +93,7 @@ app.use(function (err, req, res, next) {
 //var mongoose = require('mongoose');
 var db = nconf.get('username') + ':' + nconf.get('password') + '@' + nconf.get('server') + ':' + nconf.get('port');
 //mongoose.connect('mongodb://AdvReaderWriter:PH3AKYIHY0FBrer@localhost:27017/advent1', function(err: any) {
-mongoose.connect('mongodb://' + db + '/advent1', function (err) {
+mongoose.connect('mongodb://' + db + '/adv1', function (err) {
     if (err) {
         console.log('connection error', err);
     }

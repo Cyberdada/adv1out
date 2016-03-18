@@ -13,7 +13,6 @@ function save(req, res) {
     });
 }
 exports.save = save;
-//jhh
 function load(req, res) {
     var artifact = mongoose.model("artifact", artifact_schema_1.artifactSchema);
     var q = artifact.find({}).sort("name");
