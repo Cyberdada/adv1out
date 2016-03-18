@@ -31,8 +31,7 @@ app.use(function (req, res, next) {
     // Pass to next layer of middleware
     next();
 });
-var lpath = __dirname.substring(0, __dirname.indexOf("server"));
-console.log(lpath);
+console.log(__dirname);
 // ALL ROUTES HERE!!!!
 app.post('/api/dungeons', dungeon.save);
 app.get('/api/dungeons', dungeon.load);
