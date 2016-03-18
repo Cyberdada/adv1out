@@ -90,9 +90,9 @@ app.use(function (err, req, res, next) {
     });
 });
 //var mongoose = require('mongoose');
-var db = nconf.get('usernamex') + ':' + nconf.get('password') + '@' + nconf.get('server') + ':' + nconf.get('xport');
+var db = nconf.get('usernamex') + ':' + nconf.get('password') + '@' + nconf.get('server') + ':' + nconf.get('xport') + '/'+ nconf.get('db');
 console.log("db: " + db);
-mongoose.connect('mongodb://' + db + '/adv1', function (err) {
+mongoose.connect('mongodb://' + db , function (err) {
     if (err) {
         console.log('connection error', err);
     }
