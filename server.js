@@ -1,6 +1,5 @@
 #!/usr/bin/env node
-var app = require('../app');
-var debug = require('debug')('adv1:server');
+var app = require('./app');
 var http = require('http');
 console.log("HEH HOH");
 /**
@@ -52,7 +51,6 @@ function onListening() {
     var bind = typeof addr === 'string'
         ? 'pipe ' + addr
         : 'port ' + addr.port;
-    debug('Listening on ' + bind);
 }
 module.exports = app;
 //# sourceMappingURL=www.js.map
